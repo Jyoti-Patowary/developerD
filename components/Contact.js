@@ -7,7 +7,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Contact</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <p className="text-gray-700 mb-4">Let's get in touch! Fill out the form below to send me a message.</p>
+            <p className="text-gray-700 mb-4">Lets get in touch! Fill out the form below to send me a message.</p>
             <form>
               <div className="mb-4">
                 <label className="block text-gray-800 font-bold mb-2" htmlFor="name">Name</label>
