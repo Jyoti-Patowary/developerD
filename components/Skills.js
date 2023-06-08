@@ -13,13 +13,13 @@ function Skills() {
             <div className="flex items-center justify-center">
               <DiReact className="text-6xl" />
             </div>
-            <h3 className="text-xl text-center font-bold mt-2">React</h3>
+            <h3 className="text-xl text-center font-bold mt-2">React Js</h3>
           </div>
           <div className="bg-white rounded-lg p-6 md:p-10">
             <div className="flex items-center justify-center">
               <SiNextdotjs className="text-6xl" />
             </div>
-            <h3 className="text-xl text-center font-bold mt-2">Next.js</h3>
+            <h3 className="text-xl text-center font-bold mt-2">Next Js</h3>
           </div>
           <div className="bg-white rounded-lg p-6 md:p-10">
             <div className="flex items-center justify-center">
@@ -31,7 +31,7 @@ function Skills() {
             <div className="flex items-center justify-center">
               <SiExpress className="text-6xl" />
             </div>
-            <h3 className="text-xl text-center font-bold mt-2">Express.js</h3>
+            <h3 className="text-xl text-center font-bold mt-2">Express Js</h3>
           </div>
           <div className="bg-white rounded-lg p-6 md:p-10">
             <div className="flex items-center justify-center">
@@ -63,12 +63,12 @@ function Skills() {
             </div>
             <h3 className="text-xl text-center font-bold mt-2">Tailwind CSS</h3>
           </div>
-          <div className="bg-white rounded-lg p-6 md:p-10">
+          {/* <div className="bg-white rounded-lg p-6 md:p-10">
             <div className="flex items-center justify-center">
               <SiGraphql className="text-6xl" />
             </div>
             <h3 className="text-xl text-center font-bold mt-2">GraphQL</h3>
-          </div>
+          </div> */}
           <div className="bg-white rounded-lg p-6 md:p-10">
             <div className="flex items-center justify-center">
               <SiFigma className="text-6xl" />
