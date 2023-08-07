@@ -29,8 +29,10 @@ function Experience() {
   ];
 
   return (
-    <div className="bg-gray-100 flex flex-col text-center justify-center p-10">
-      <h2 className="text-3xl font-bold mb-10">Work Experience</h2>
+
+    <div className="bg-gray-100 flex flex-col justify-center items-center py-20">
+    <div className="container mx-auto px-4 bg-wave-pattern bg-cover bg-no-repeat bg-bottom">
+      <h2 className="text-3xl font-bold pl-9">Work Experience</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-10">
         {workExperience.map((experience, index) => (
           <div className="bg-white rounded-lg shadow p-6 md:p-10 transition-transform hover:scale-105" key={index}>
@@ -49,7 +51,8 @@ function Experience() {
         ))}
       </div>
     </div>
-  );
+  </div>
+);
 }
 
 export default Experience;

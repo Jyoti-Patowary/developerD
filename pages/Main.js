@@ -3,6 +3,7 @@ import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
 import Footer from '@/components/Footer'
 import Landing from '@/components/LandingPage'
+import Letstalk from '@/components/Letstalk'
 import Navbar from '@/components/Navbar'
 import Skills from '@/components/Skills'
 import Portfolio from '@/components/portfolio'
@@ -13,10 +14,11 @@ function Main() {
    <>
       {/* <Navbar/> */}
       <Landing/>
+      {/* <About/> */}
       <Experience/>
-      <Skills/>
-      <About/>
       <Portfolio/>
+      <Skills/>
+      <Letstalk/>
       <Contact/>
       <Footer/>
    </>

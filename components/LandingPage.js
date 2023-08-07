@@ -39,11 +39,11 @@ const Landing = () => {
         </div>
       </div>
       <main className="container mx-auto px-4 py-12 flex items-center justify-center">
-        <div className="w-1/2">
+        <div className="w-full md:w-2/3 lg:w-1/2">
           <img src="https://images.unsplash.com/photo-1684388021048-b0a9f52a8a80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Profile" className="rounded-full h-60 w-60 mx-auto mb-8" />
           <section className="text-center">
             <h5 className="text-xl font-bold mb-4 uppercase">{text}</h5>
-            <h2 className="text-6xl uppercase font-bold">Jyoti Patowary</h2>
+            <h2 className="text-4xl md:text-6xl uppercase font-bold">Jyoti Patowary</h2>
             <button className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full mt-8">Contact Me</button>
           </section>
         </div>
